@@ -6,3 +6,5 @@
 
 4.dotnet ef migrations script   也跟pmc类似  如果没有任何参数的话默认是生成所有sql脚本，但是参数格式略有不同如下：dotnet ef migrations script migrationName1  migrationName2 ; 是像这样直接跟迁移名称的也就是生成migrationName1 到migrationName2 的sql脚本
 
+5.这个demo是使用prism框架和materialDesign以及ef core开发的一个演示程序，如果对你有帮助的话请给我一个start，谢谢！
+
