@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 E:\Solution\PrismDemo_Copy\PrismDemo\App.xaml
-171876380732
+18-161958903
 1-1555994950
-46654058733
-219-268619942
-CustomResources\CustomColorTheme.xaml;Views\AboutView.xaml;Views\CaseView.xaml;Views\ConfirmationDialogView.xaml;Views\ContactView.xaml;Views\CustomDialogView.xaml;Views\DialogDemoView.xaml;Views\EventPublisherView.xaml;Views\EventSubscriberView.xaml;Views\FormDemoView.xaml;Views\HomeView.xaml;Views\MainWindow.xaml;Views\MessageDialogView.xaml;Views\NewsView.xaml;Views\ProductView.xaml;Views\ServiceView.xaml;Views\TeamView.xaml;
+63-1212361912
+2362106609236
+CustomResources\CustomColorTheme.xaml;Views\AboutView.xaml;Views\CaseView.xaml;Views\ConfirmationDialogView.xaml;Views\ContactView.xaml;Views\CustomDialogView.xaml;Views\DataAccessDemoView.xaml;Views\DialogDemoView.xaml;Views\EventPublisherView.xaml;Views\EventSubscriberView.xaml;Views\FormDemoView.xaml;Views\HomeView.xaml;Views\MainWindow.xaml;Views\MessageDialogView.xaml;Views\NewsView.xaml;Views\ProductView.xaml;Views\ServiceView.xaml;Views\TeamView.xaml;
 
 False
 

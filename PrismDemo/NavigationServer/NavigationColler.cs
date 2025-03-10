@@ -24,6 +24,7 @@ namespace PrismDemo.NavigationServer
             NavigationItems.Add(new NavigationItem(name: "对话框演示", icon: "MessageText", viewName: "DialogDemoView"));
             NavigationItems.Add(new NavigationItem(name: "事件发布", icon: "Send", viewName: "EventPublisherView"));
             NavigationItems.Add(new NavigationItem(name: "事件订阅", icon: "Antenna", viewName: "EventSubscriberView"));
+            NavigationItems.Add(new NavigationItem(name: "数据访问", icon: "Database", viewName: "DataAccessDemoView"));
             NavigationItems.Add(new NavigationItem(name: "产品", icon: "Reproduction", viewName: "ProductView"));            
             NavigationItems.Add(new NavigationItem(name: "服务", icon: "Lifebuoy", viewName: "ServiceView"));
             NavigationItems.Add(new NavigationItem(name: "案例", icon: "BriefcaseCheck", viewName: "CaseView"));

@@ -1,4 +1,5 @@
 ﻿using DryIoc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -8,10 +9,11 @@ using NLog.Extensions.Logging;
 using Prism.DryIoc;
 using Prism.Ioc;
 using Prism.Regions;
-
+using PrismDemo.Data;
 using PrismDemo.NavigationServer;
 using PrismDemo.ViewModels;
 using PrismDemo.Views;
+using System;
 using System.Configuration;
 using System.Windows;
 
@@ -25,6 +27,26 @@ namespace PrismDemo
         protected override Window CreateShell()
         {
             return Container.Resolve<MainWindow>();
+        }
+
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+            InitializeDatabase();
+        }
+
+        private void InitializeDatabase()
+        {
+            try
+            {
+                var dbContext = Container.Resolve<AppDbContext>();
+                dbContext.Database.EnsureCreated();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"数据库初始化失败: {ex.Message}", "错误", MessageBoxButton.OK, MessageBoxImage.Error);
+                Current.Shutdown();
+            }
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
@@ -43,9 +65,24 @@ namespace PrismDemo
                 log.AddNLog();            
             });
 
+            // 配置DbContext选项
+            string connectionString = configuration.GetConnectionString("PrismDemoDb");
+            var serverVersion = new MySqlServerVersion(new Version(6, 0, 3));
+
+            // 创建DbContext选项构建器
+            var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
+            optionsBuilder.UseMySql(connectionString, serverVersion, mySqlOptions =>
+            {
+                mySqlOptions.EnableRetryOnFailure(5, TimeSpan.FromSeconds(10), null);
+            });
+
+            // 注册DbContext
+            containerRegistry.RegisterInstance<DbContextOptions<AppDbContext>>(optionsBuilder.Options);
+            containerRegistry.Register<AppDbContext>();
+
             // 构建 ServiceProvider
             var serviceProvider = serviceCollection.BuildServiceProvider();
-            containerRegistry.RegisterInstance(serviceCollection);
+            containerRegistry.RegisterInstance(serviceProvider);
 
             // 获取 ILoggerFactory 并注册到 Prism
             var loggerFactory = serviceProvider.GetService<ILoggerFactory>();
@@ -62,6 +99,7 @@ namespace PrismDemo
             containerRegistry.RegisterForNavigation<DialogDemoView, DialogDemoViewModel>("DialogDemoView");
             containerRegistry.RegisterForNavigation<EventPublisherView, EventPublisherViewModel>("EventPublisherView");
             containerRegistry.RegisterForNavigation<EventSubscriberView, EventSubscriberViewModel>("EventSubscriberView");
+            containerRegistry.RegisterForNavigation<DataAccessDemoView, DataAccessDemoViewModel>("DataAccessDemoView");
             containerRegistry.RegisterForNavigation<ProductView, ProductViewModel>("ProductView");
             containerRegistry.RegisterForNavigation<ServiceView, ServiceViewModel>("ServiceView");
             containerRegistry.RegisterForNavigation<CaseView, CaseViewModel>("CaseView");

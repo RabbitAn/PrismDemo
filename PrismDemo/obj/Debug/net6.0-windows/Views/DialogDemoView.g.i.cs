@@ -62,7 +62,7 @@ namespace PrismDemo.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PrismDemo;V1.0.0.0;component/views/dialogdemoview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PrismDemo;component/views/dialogdemoview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\DialogDemoView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
