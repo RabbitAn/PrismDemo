@@ -7,6 +7,7 @@ using NLog.Config;
 using NLog.Extensions.Logging;
 using Prism.DryIoc;
 using Prism.Ioc;
+using Prism.Regions;
 
 using PrismDemo.NavigationServer;
 using PrismDemo.ViewModels;
@@ -25,8 +26,6 @@ namespace PrismDemo
         {
             return Container.Resolve<MainWindow>();
         }
-
-
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
@@ -52,12 +51,8 @@ namespace PrismDemo
             var loggerFactory = serviceProvider.GetService<ILoggerFactory>();
             containerRegistry.RegisterInstance(loggerFactory);
 
-
             // 让 Prism 的 DI 支持 ILogger<T>
             containerRegistry.RegisterSingleton(typeof(ILogger<>), typeof(Logger<>));
-
-     
-
 
             containerRegistry.RegisterSingleton<INavigationColler, NavigationColler>();
             containerRegistry.RegisterForNavigation<MainWindow, MainWindowViewModel>();
@@ -65,6 +60,8 @@ namespace PrismDemo
             containerRegistry.RegisterForNavigation<AboutView, AboutViewModel>("AboutView");
             containerRegistry.RegisterForNavigation<FormDemoView, FormDemoViewModel>("FormDemoView");
             containerRegistry.RegisterForNavigation<DialogDemoView, DialogDemoViewModel>("DialogDemoView");
+            containerRegistry.RegisterForNavigation<EventPublisherView, EventPublisherViewModel>("EventPublisherView");
+            containerRegistry.RegisterForNavigation<EventSubscriberView, EventSubscriberViewModel>("EventSubscriberView");
             containerRegistry.RegisterForNavigation<ProductView, ProductViewModel>("ProductView");
             containerRegistry.RegisterForNavigation<ServiceView, ServiceViewModel>("ServiceView");
             containerRegistry.RegisterForNavigation<CaseView, CaseViewModel>("CaseView");
@@ -72,14 +69,10 @@ namespace PrismDemo
             containerRegistry.RegisterForNavigation<NewsView, NewsViewModel>("NewsView");
             containerRegistry.RegisterForNavigation<TeamView, TeamViewModel>("TeamView");
 
-
             // Register dialogs
             containerRegistry.RegisterDialog<CustomDialogView, CustomDialogViewModel>("CustomDialog");
             containerRegistry.RegisterDialog<ConfirmationDialogView, ConfirmationDialogViewModel>("ConfirmationDialog");
             containerRegistry.RegisterDialog<MessageDialogView, MessageDialogViewModel>("MessageDialog");
         }
-
-
-
     }
 }

@@ -131,3 +131,7 @@ E:\Solution\PrismDemo_Copy\PrismDemo\bin\Debug\net6.0-windows\NLog.dll
 E:\Solution\PrismDemo_Copy\PrismDemo\bin\Debug\net6.0-windows\NLog.Extensions.Logging.dll
 E:\Solution\PrismDemo_Copy\PrismDemo\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
 E:\Solution\PrismDemo_Copy\PrismDemo\obj\Debug\net6.0-windows\PrismDemo.sourcelink.json
+E:\Solution\PrismDemo_Copy\PrismDemo\obj\Debug\net6.0-windows\Views\EventPublisherView.baml
+E:\Solution\PrismDemo_Copy\PrismDemo\obj\Debug\net6.0-windows\Views\EventSubscriberView.baml
+E:\Solution\PrismDemo_Copy\PrismDemo\obj\Debug\net6.0-windows\Views\EventPublisherView.g.cs
+E:\Solution\PrismDemo_Copy\PrismDemo\obj\Debug\net6.0-windows\Views\EventSubscriberView.g.cs
