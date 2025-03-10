@@ -130,3 +130,4 @@ E:\Solution\PrismDemo_Copy\PrismDemo\bin\Debug\net6.0-windows\Microsoft.Extensio
 E:\Solution\PrismDemo_Copy\PrismDemo\bin\Debug\net6.0-windows\NLog.dll
 E:\Solution\PrismDemo_Copy\PrismDemo\bin\Debug\net6.0-windows\NLog.Extensions.Logging.dll
 E:\Solution\PrismDemo_Copy\PrismDemo\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+E:\Solution\PrismDemo_Copy\PrismDemo\obj\Debug\net6.0-windows\PrismDemo.sourcelink.json

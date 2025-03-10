@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrismDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f716ac74ae34386fd44d2003a66de33ec87ce374")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrismDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrismDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
