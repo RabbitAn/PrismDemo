@@ -1,0 +1,230 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Solution\\PrismDemo_Copy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|e:\\solution\\prismdemo_copy\\prismdemo\\viewmodels\\serviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|solutionrelative:prismdemo\\viewmodels\\serviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|e:\\solution\\prismdemo_copy\\prismdemo\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|solutionrelative:prismdemo\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|e:\\solution\\prismdemo_copy\\prismdemo\\views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|solutionrelative:prismdemo\\views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|e:\\solution\\prismdemo_copy\\prismdemo\\viewmodels\\teamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|solutionrelative:prismdemo\\viewmodels\\teamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|e:\\solution\\prismdemo_copy\\prismdemo\\views\\teamview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|solutionrelative:prismdemo\\views\\teamview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|e:\\solution\\prismdemo_copy\\prismdemo\\viewmodels\\newsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|solutionrelative:prismdemo\\viewmodels\\newsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|e:\\solution\\prismdemo_copy\\prismdemo\\views\\serviceview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|solutionrelative:prismdemo\\views\\serviceview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|e:\\solution\\prismdemo_copy\\prismdemo\\views\\contactview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|solutionrelative:prismdemo\\views\\contactview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|e:\\solution\\prismdemo_copy\\prismdemo\\viewmodels\\dialogdemoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|solutionrelative:prismdemo\\viewmodels\\dialogdemoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|e:\\solution\\prismdemo_copy\\prismdemo\\viewmodels\\formdemoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|solutionrelative:prismdemo\\viewmodels\\formdemoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|e:\\solution\\prismdemo_copy\\prismdemo\\viewmodels\\customdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|solutionrelative:prismdemo\\viewmodels\\customdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|e:\\solution\\prismdemo_copy\\prismdemo\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|solutionrelative:prismdemo\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|e:\\solution\\prismdemo_copy\\prismdemo\\navigationserver\\navigationcoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616D85A3-3458-468E-BDDF-24274458D882}|PrismDemo\\PrismDemo.csproj|solutionrelative:prismdemo\\navigationserver\\navigationcoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeView.xaml",
+              "DocumentMoniker": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\Views\\HomeView.xaml",
+              "RelativeDocumentMoniker": "PrismDemo\\Views\\HomeView.xaml",
+              "ToolTip": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\Views\\HomeView.xaml",
+              "RelativeToolTip": "PrismDemo\\Views\\HomeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-10T01:28:51.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\App.xaml.cs",
+              "RelativeDocumentMoniker": "PrismDemo\\App.xaml.cs",
+              "ToolTip": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\App.xaml.cs",
+              "RelativeToolTip": "PrismDemo\\App.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwv0sAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T01:24:14.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TeamViewModel.cs",
+              "DocumentMoniker": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\ViewModels\\TeamViewModel.cs",
+              "RelativeDocumentMoniker": "PrismDemo\\ViewModels\\TeamViewModel.cs",
+              "ToolTip": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\ViewModels\\TeamViewModel.cs",
+              "RelativeToolTip": "PrismDemo\\ViewModels\\TeamViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T01:21:32.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TeamView.xaml",
+              "DocumentMoniker": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\Views\\TeamView.xaml",
+              "RelativeDocumentMoniker": "PrismDemo\\Views\\TeamView.xaml",
+              "ToolTip": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\Views\\TeamView.xaml",
+              "RelativeToolTip": "PrismDemo\\Views\\TeamView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-10T01:19:21.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NewsViewModel.cs",
+              "DocumentMoniker": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\ViewModels\\NewsViewModel.cs",
+              "RelativeDocumentMoniker": "PrismDemo\\ViewModels\\NewsViewModel.cs",
+              "ToolTip": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\ViewModels\\NewsViewModel.cs",
+              "RelativeToolTip": "PrismDemo\\ViewModels\\NewsViewModel.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAA2wLUAAADGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T00:32:16.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceViewModel.cs",
+              "DocumentMoniker": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\ViewModels\\ServiceViewModel.cs",
+              "RelativeDocumentMoniker": "PrismDemo\\ViewModels\\ServiceViewModel.cs",
+              "ToolTip": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\ViewModels\\ServiceViewModel.cs",
+              "RelativeToolTip": "PrismDemo\\ViewModels\\ServiceViewModel.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwFAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T08:02:25.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceView.xaml",
+              "DocumentMoniker": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\Views\\ServiceView.xaml",
+              "RelativeDocumentMoniker": "PrismDemo\\Views\\ServiceView.xaml",
+              "ToolTip": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\Views\\ServiceView.xaml",
+              "RelativeToolTip": "PrismDemo\\Views\\ServiceView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-08T07:56:37.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContactView.xaml",
+              "DocumentMoniker": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\Views\\ContactView.xaml",
+              "RelativeDocumentMoniker": "PrismDemo\\Views\\ContactView.xaml",
+              "ToolTip": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\Views\\ContactView.xaml",
+              "RelativeToolTip": "PrismDemo\\Views\\ContactView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-08T07:55:23.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DialogDemoViewModel.cs",
+              "DocumentMoniker": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\ViewModels\\DialogDemoViewModel.cs",
+              "RelativeDocumentMoniker": "PrismDemo\\ViewModels\\DialogDemoViewModel.cs",
+              "ToolTip": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\ViewModels\\DialogDemoViewModel.cs",
+              "RelativeToolTip": "PrismDemo\\ViewModels\\DialogDemoViewModel.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwDsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T07:41:18.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormDemoViewModel.cs",
+              "DocumentMoniker": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\ViewModels\\FormDemoViewModel.cs",
+              "RelativeDocumentMoniker": "PrismDemo\\ViewModels\\FormDemoViewModel.cs",
+              "ToolTip": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\ViewModels\\FormDemoViewModel.cs",
+              "RelativeToolTip": "PrismDemo\\ViewModels\\FormDemoViewModel.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T07:45:26.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomDialogViewModel.cs",
+              "DocumentMoniker": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\ViewModels\\CustomDialogViewModel.cs",
+              "RelativeDocumentMoniker": "PrismDemo\\ViewModels\\CustomDialogViewModel.cs",
+              "ToolTip": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\ViewModels\\CustomDialogViewModel.cs",
+              "RelativeToolTip": "PrismDemo\\ViewModels\\CustomDialogViewModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T07:39:38.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PrismDemo\\Views\\MainWindow.xaml",
+              "ToolTip": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "PrismDemo\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-06T11:54:08.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NavigationColler.cs",
+              "DocumentMoniker": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\NavigationServer\\NavigationColler.cs",
+              "RelativeDocumentMoniker": "PrismDemo\\NavigationServer\\NavigationColler.cs",
+              "ToolTip": "E:\\Solution\\PrismDemo_Copy\\PrismDemo\\NavigationServer\\NavigationColler.cs",
+              "RelativeToolTip": "PrismDemo\\NavigationServer\\NavigationColler.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T11:52:21.954Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Icons\Battery.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Icons\BackImage.jpg" />
+    <None Remove="Icons\Battery.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icons\Battery.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="5.2.1" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.2.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="9.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.2" />
+    <PackageReference Include="NLog" Version="5.4.0" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="5.4.0" />
+    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\BackImage.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\Battery.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Nlog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

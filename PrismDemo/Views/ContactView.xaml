@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UserControl x:Class="PrismDemo.Views.ContactView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"
+             xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid Margin="20">
+        <md:Card VerticalAlignment="Center" Margin="20">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <!-- 联系表单 -->
+                <StackPanel Grid.Column="0" Margin="24,24,16,24">
+                    <TextBlock Text="联系我们" 
+                             FontSize="24" 
+                             FontWeight="Bold" 
+                             Margin="0,0,0,16"/>
+                    
+                    <TextBox md:HintAssist.Hint="您的姓名"
+                           md:HintAssist.IsFloating="True"
+                           Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}"
+                           Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                           Margin="0,8"/>
+                    
+                    <TextBox md:HintAssist.Hint="您的邮箱"
+                           md:HintAssist.IsFloating="True"
+                           Text="{Binding Email, UpdateSourceTrigger=PropertyChanged}"
+                           Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                           Margin="0,8"/>
+                    
+                    <TextBox md:HintAssist.Hint="您的电话"
+                           md:HintAssist.IsFloating="True"
+                           Text="{Binding Phone, UpdateSourceTrigger=PropertyChanged}"
+                           Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                           Margin="0,8"/>
+                    
+                    <TextBox md:HintAssist.Hint="留言内容"
+                           md:HintAssist.IsFloating="True"
+                           Text="{Binding Message, UpdateSourceTrigger=PropertyChanged}"
+                           Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                           TextWrapping="Wrap"
+                           MinHeight="100"
+                           AcceptsReturn="True"
+                           VerticalScrollBarVisibility="Auto"
+                           Margin="0,8"/>
+                    
+                    <Button Content="发送留言"
+                           Command="{Binding SubmitCommand}"
+                           Style="{StaticResource MaterialDesignRaisedButton}"
+                           Margin="0,16,0,0"/>
+                    
+                    <TextBlock Text="{Binding SubmitResult}"
+                             Margin="0,8,0,0"
+                             Foreground="Green" 
+                             TextWrapping="Wrap"/>
+                </StackPanel>
+                
+                <!-- 联系信息 -->
+                <StackPanel Grid.Column="1" 
+                          Background="#f5f5f5" 
+                          Margin="16,24,24,24" 
+                         >
+                    <TextBlock Text="联系方式" 
+                             FontSize="20" 
+                             FontWeight="Bold" 
+                             Margin="0,0,0,24"/>
+                    
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,16">
+                        <md:PackIcon Kind="MapMarker" 
+                                    Width="24" 
+                                    Height="24" 
+                                    VerticalAlignment="Top"
+                                    Margin="0,0,16,0"/>
+                        <TextBlock Text="北京市海淀区中关村南大街5号" 
+                                 TextWrapping="Wrap"/>
+                    </StackPanel>
+                    
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,16">
+                        <md:PackIcon Kind="Phone" 
+                                    Width="24" 
+                                    Height="24" 
+                                    VerticalAlignment="Center"
+                                    Margin="0,0,16,0"/>
+                        <TextBlock Text="010-12345678" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,16">
+                        <md:PackIcon Kind="Email" 
+                                    Width="24" 
+                                    Height="24" 
+                                    VerticalAlignment="Center"
+                                    Margin="0,0,16,0"/>
+                        <TextBlock Text="contact@example.com" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,16">
+                        <md:PackIcon Kind="Clock" 
+                                    Width="24" 
+                                    Height="24" 
+                                    VerticalAlignment="Top"
+                                    Margin="0,0,16,0"/>
+                        <StackPanel>
+                            <TextBlock Text="工作时间"/>
+                            <TextBlock Text="周一至周五: 9:00 - 18:00"/>
+                            <TextBlock Text="周末: 休息"/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </md:Card>
+    </Grid>
+</UserControl> 
