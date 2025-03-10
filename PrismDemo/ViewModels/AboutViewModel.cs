@@ -26,7 +26,7 @@ namespace PrismDemo.ViewModels
 
         private void GetOG()
         {
-            Process.Start(new ProcessStartInfo("https://github.com/RabbitAn") { UseShellExecute = true });
+                Process.Start(new ProcessStartInfo("https://github.com/RabbitAn/PrismDemo") { UseShellExecute = true });
         }
     }
 }
